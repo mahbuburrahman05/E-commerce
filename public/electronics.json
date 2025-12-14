@@ -1,0 +1,166 @@
+{
+  "electronics": [
+    {
+      "id": 1,
+      "name": "MacBook Pro 16 M2",
+      "rating": 4.9,
+      "price": 2499,
+      "description": "Apple MacBook Pro 16-inch with M2 Pro chip, 16GB RAM, 512GB SSD, ideal for professionals.",
+      "category": "Computer & Laptop",
+      "categoryImage": "https://img.freepik.com/premium-photo/isolated-laptop-computer-with-white-screen-mockup-white-background-clipping-path_50039-2411.jpg?semt=ais_hybrid&w=740&q=80",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    },
+    {
+      "id": 2,
+      "name": "Dell XPS 13",
+      "rating": 4.7,
+      "price": 1399,
+      "description": "Dell XPS 13 ultrabook featuring a 13-inch InfinityEdge display with 16GB RAM.",
+      "category": "Computer & Laptop",
+      "categoryImage": "https://img.freepik.com/premium-photo/isolated-laptop-computer-with-white-screen-mockup-white-background-clipping-path_50039-2411.jpg?semt=ais_hybrid&w=740&q=80",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24432609/236524_Dell_XPS_13_AKrales_0016.jpg?quality=90&strip=all&crop=0,0,100,100"
+    },
+    {
+      "id": 3,
+      "name": "iPhone 15 Pro Max",
+      "rating": 4.8,
+      "price": 1299,
+      "description": "Apple iPhone 15 Pro Max with A17 chip, 48MP camera, and titanium design.",
+      "category": "SmartPhone",
+      "categoryImage": "https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1695113801-apple-iphone-15-pro-lineup-white-titanium-twitter-650961d6e60d6.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy S24 Ultra",
+      "rating": 4.8,
+      "price": 1199,
+      "description": "Samsung flagship with 200MP camera, Snapdragon 8 Gen 3, and S-Pen support.",
+      "category": "SmartPhone",
+      "categoryImage": "https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    },
+    {
+      "id": 5,
+      "name": "Sony WH-1000XM5",
+      "rating": 4.9,
+      "price": 399,
+      "description": "Industry-leading noise-cancelling wireless headphones with amazing sound quality.",
+      "category": "Headphones",
+      "categoryImage": "https://www.freeiconspng.com/thumbs/headphones-png/headphones-png-14.png",
+      "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90"
+    },
+    {
+      "id": 6,
+      "name": "AirPods Pro 2",
+      "rating": 4.7,
+      "price": 249,
+      "description": "Apple’s premium earbuds with adaptive transparency and ANC.",
+      "category": "Headphones",
+      "categoryImage": "https://www.freeiconspng.com/thumbs/headphones-png/headphones-png-14.png",
+      "image": "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5"
+    },
+    {
+      "id": 7,
+      "name": "Anker 20W Fast Charger",
+      "rating": 4.6,
+      "price": 19,
+      "description": "Compact and powerful USB-C fast charger suitable for all smartphones.",
+      "category": "Accessories",
+      "categoryImage": "https://img.freepik.com/premium-vector/gadgets-tech_24908-45691.jpg?semt=ais_hybrid&w=740&q=80",
+      "image": "https://shop.deximpo.com.bd/wp-content/uploads/2024/09/Anker-20W-USB-C-Fast-Wall-Charger-with-Type-C-to-C-Cable.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Logitech MX Master 3S",
+      "rating": 4.8,
+      "price": 99,
+      "description": "Advanced wireless mouse for productivity and professional use.",
+      "category": "Accessories",
+      "categoryImage": "https://img.freepik.com/premium-vector/gadgets-tech_24908-45691.jpg?semt=ais_hybrid&w=740&q=80",
+      "image": "https://mcsolution.com.bd/wp-content/uploads/2022/09/Logitech-MX-Master-3S-Pale-Gray-in-Bangladesh-2022-MC-Solution-BD-scaled-2116x2116.webp"
+    },
+    {
+      "id": 9,
+      "name": "Canon EOS R6",
+      "rating": 4.9,
+      "price": 2499,
+      "description": "Canon mirrorless camera with 20MP sensor and excellent low-light performance.",
+      "category": "Camera & Photo",
+      "categoryImage": "https://img.freepik.com/free-vector/vector-compact-photo-camera-top-view-isolated-white-background_1284-45522.jpg?semt=ais_se_enriched&w=740&q=80",
+      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+    },
+    {
+      "id": 10,
+      "name": "Sony A7 IV",
+      "rating": 4.8,
+      "price": 2499,
+      "description": "Sony’s hybrid mirrorless camera with 33MP sensor and 4K60 video support.",
+      "category": "Camera & Photo",
+      "categoryImage": "https://img.freepik.com/free-vector/vector-compact-photo-camera-top-view-isolated-white-background_1284-45522.jpg?semt=ais_se_enriched&w=740&q=80",
+      "image": "https://2.img-dpreview.com/files/p/TS2400x2400~sample_galleries/3220969392/5842928524.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Samsung QLED 65-inch 4K",
+      "rating": 4.9,
+      "price": 1499,
+      "description": "Samsung 4K Smart TV with Quantum Dot display and HDR10+.",
+      "category": "TV & Homes",
+      "categoryImage": "https://media.istockphoto.com/id/1289373642/vector/illustration-of-a-black-tv-with-a-blank-screen-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=jUb9q9Fxk1zVAh4rEggSo70yrE2UQWargoDPdPKk0cg=",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    },
+    {
+      "id": 12,
+      "name": "LG C3 OLED TV 55-inch",
+      "rating": 4.8,
+      "price": 1799,
+      "description": "LG OLED TV with Dolby Vision, perfect blacks, and stunning picture quality.",
+      "category": "TV & Homes",
+      "categoryImage": "https://media.istockphoto.com/id/1289373642/vector/illustration-of-a-black-tv-with-a-blank-screen-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=jUb9q9Fxk1zVAh4rEggSo70yrE2UQWargoDPdPKk0cg=",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRLez7ue45xDLzEKZrHn1IHgzed8BkHGJaoQ&s"
+    },
+    {
+  "id": 13,
+  "name": "Apple Watch Series 9",
+  "rating": 4.8,
+  "price": 399,
+  "description": "Advanced smartwatch with health tracking, Always-On display, and fast charging.",
+  "category": "Smartwatch",
+  "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKT13?wid=2000&hei=2000",
+  "categoryImage": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?semt=ais_hybrid&w=740&q=80"
+},
+{
+  "id": 14,
+  "name": "Garmin Venu 3",
+  "rating": 4.8,
+  "price": 449,
+  "description": "Fitness-focused smartwatch with AMOLED display, GPS, and health monitoring.",
+  "category": "Smartwatch",
+  "image": "https://m.media-amazon.com/images/I/71xn3VfVJLL._AC_SL1500_.jpg",
+  "categoryImage": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?semt=ais_hybrid&w=740&q=80"
+},
+
+{
+  "id": 15,
+  "name": "Xbox Series X",
+  "rating": 4.9,
+  "price": 499,
+  "description": "Microsoft’s flagship 4K gaming console with fast load times and 120 FPS support.",
+  "category": "Gaming Console",
+  "image": "https://images.unsplash.com/photo-1606813907291-d86efa7c71b5",
+  "categoryImage": "https://wallpapers.com/images/featured/ps5-console-png-ywbv2gv3gfw23o3w.jpg"
+},
+{
+  "id": 16,
+  "name": "PlayStation 5",
+  "rating": 4.9,
+  "price": 499,
+  "description": "Sony PS5 gaming console with ultra-fast SSD, ray tracing, and haptic feedback controller.",
+  "category": "Gaming Console",
+  "image": "https://images.unsplash.com/photo-1606813907291-d86efa7c71b5",
+  "categoryImage": "https://wallpapers.com/images/featured/ps5-console-png-ywbv2gv3gfw23o3w.jpg"
+}
+
+  ]
+}

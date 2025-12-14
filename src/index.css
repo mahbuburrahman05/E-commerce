@@ -1,0 +1,15 @@
+
+/* src/index.css */
+@import "tailwindcss";
+.custom-dots .slick-dots {
+  left: 20px !important;   /* Move dots from center to left */
+  bottom: 20px !important; /* Adjust vertical position */
+  width: auto !important;  /* Prevent full-width stretching */
+}
+.custom-dots .slick-dots li button:before {
+  color: #2484C2 !important; 
+  font-size: 10px !important;
+}
+.custom-dots .slick-dots li.slick-active button:before {
+  color: #FA8232 !important;
+}
