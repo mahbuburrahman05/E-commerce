@@ -5,8 +5,11 @@
       "name": "MacBook Pro 16 M2",
       "rating": 4.9,
       "price": 2499,
+        "memory": "16GB RAM",
+  "storage": "1TB SSD",
       "description": "Apple MacBook Pro 16-inch with M2 Pro chip, 16GB RAM, 512GB SSD, ideal for professionals.",
       "category": "Computer & Laptop",
+          "size": "16-inch Liquid Retina XDR",
       "categoryImage": "https://img.freepik.com/premium-photo/isolated-laptop-computer-with-white-screen-mockup-white-background-clipping-path_50039-2411.jpg?semt=ais_hybrid&w=740&q=80",
       "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
     },
@@ -15,8 +18,11 @@
       "name": "Dell XPS 13",
       "rating": 4.7,
       "price": 1399,
+        "memory": "8GB RAM",
+  "storage": "500GB SSD",
       "description": "Dell XPS 13 ultrabook featuring a 13-inch InfinityEdge display with 16GB RAM.",
       "category": "Computer & Laptop",
+          "size": "13-inch FHD+",
       "categoryImage": "https://img.freepik.com/premium-photo/isolated-laptop-computer-with-white-screen-mockup-white-background-clipping-path_50039-2411.jpg?semt=ais_hybrid&w=740&q=80",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/24432609/236524_Dell_XPS_13_AKrales_0016.jpg?quality=90&strip=all&crop=0,0,100,100"
     },
@@ -25,8 +31,11 @@
       "name": "iPhone 15 Pro Max",
       "rating": 4.8,
       "price": 1299,
+        "memory": "8GB RAM",
+  "storage": "512GB",
       "description": "Apple iPhone 15 Pro Max with A17 chip, 48MP camera, and titanium design.",
       "category": "SmartPhone",
+          "size": "6.7-inch OLED",
       "categoryImage": "https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg",
       "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1695113801-apple-iphone-15-pro-lineup-white-titanium-twitter-650961d6e60d6.jpg?crop=1xw:1xh;center,top&resize=980:*"
     },
@@ -35,8 +44,11 @@
       "name": "Samsung Galaxy S24 Ultra",
       "rating": 4.8,
       "price": 1199,
+        "memory": "16GB RAM",
+  "storage": "512GB",
       "description": "Samsung flagship with 200MP camera, Snapdragon 8 Gen 3, and S-Pen support.",
       "category": "SmartPhone",
+          "size": "6.8-inch AMOLED",
       "categoryImage": "https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
     },
@@ -45,8 +57,11 @@
       "name": "Sony WH-1000XM5",
       "rating": 4.9,
       "price": 399,
+        "memory": "N/A",
+  "storage": "N/A",
       "description": "Industry-leading noise-cancelling wireless headphones with amazing sound quality.",
       "category": "Headphones",
+          "size": "Over-Ear",
       "categoryImage": "https://www.freeiconspng.com/thumbs/headphones-png/headphones-png-14.png",
       "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90"
     },
@@ -55,8 +70,11 @@
       "name": "AirPods Pro 2",
       "rating": 4.7,
       "price": 249,
+        "memory": "N/A",
+  "storage": "N/A",
       "description": "Apple’s premium earbuds with adaptive transparency and ANC.",
       "category": "Headphones",
+          "size": "In-Ear",
       "categoryImage": "https://www.freeiconspng.com/thumbs/headphones-png/headphones-png-14.png",
       "image": "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5"
     },
@@ -65,8 +83,12 @@
       "name": "Anker 20W Fast Charger",
       "rating": 4.6,
       "price": 19,
+        "memory": "N/A",
+  "storage": "N/A",
       "description": "Compact and powerful USB-C fast charger suitable for all smartphones.",
       "category": "Accessories",
+            "size": "20W",
+
       "categoryImage": "https://img.freepik.com/premium-vector/gadgets-tech_24908-45691.jpg?semt=ais_hybrid&w=740&q=80",
       "image": "https://shop.deximpo.com.bd/wp-content/uploads/2024/09/Anker-20W-USB-C-Fast-Wall-Charger-with-Type-C-to-C-Cable.jpg"
     },
@@ -75,8 +97,11 @@
       "name": "Logitech MX Master 3S",
       "rating": 4.8,
       "price": 99,
+        "memory": "N/A",
+  "storage": "N/A",
       "description": "Advanced wireless mouse for productivity and professional use.",
       "category": "Accessories",
+          "size": "Ergonomic Design",
       "categoryImage": "https://img.freepik.com/premium-vector/gadgets-tech_24908-45691.jpg?semt=ais_hybrid&w=740&q=80",
       "image": "https://mcsolution.com.bd/wp-content/uploads/2022/09/Logitech-MX-Master-3S-Pale-Gray-in-Bangladesh-2022-MC-Solution-BD-scaled-2116x2116.webp"
     },
@@ -85,8 +110,11 @@
       "name": "Canon EOS R6",
       "rating": 4.9,
       "price": 2499,
+        "memory": "Dual Card Slots",
+  "storage": "SD + CFexpress",
       "description": "Canon mirrorless camera with 20MP sensor and excellent low-light performance.",
       "category": "Camera & Photo",
+          "size": "20MP Sensor",
       "categoryImage": "https://img.freepik.com/free-vector/vector-compact-photo-camera-top-view-isolated-white-background_1284-45522.jpg?semt=ais_se_enriched&w=740&q=80",
       "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
     },
@@ -95,8 +123,12 @@
       "name": "Sony A7 IV",
       "rating": 4.8,
       "price": 2499,
+        "memory": "Dual Card Slots",
+  "storage": "SD + CFexpress",
       "description": "Sony’s hybrid mirrorless camera with 33MP sensor and 4K60 video support.",
       "category": "Camera & Photo",
+          "size": "33MP Sensor",
+
       "categoryImage": "https://img.freepik.com/free-vector/vector-compact-photo-camera-top-view-isolated-white-background_1284-45522.jpg?semt=ais_se_enriched&w=740&q=80",
       "image": "https://2.img-dpreview.com/files/p/TS2400x2400~sample_galleries/3220969392/5842928524.jpg"
     },
@@ -105,8 +137,12 @@
       "name": "Samsung QLED 65-inch 4K",
       "rating": 4.9,
       "price": 1499,
+        "memory": "N/A",
+  "storage": "N/A",
       "description": "Samsung 4K Smart TV with Quantum Dot display and HDR10+.",
       "category": "TV & Homes",
+          "size": "65-inch",
+
       "categoryImage": "https://media.istockphoto.com/id/1289373642/vector/illustration-of-a-black-tv-with-a-blank-screen-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=jUb9q9Fxk1zVAh4rEggSo70yrE2UQWargoDPdPKk0cg=",
       "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
     },
@@ -115,8 +151,12 @@
       "name": "LG C3 OLED TV 55-inch",
       "rating": 4.8,
       "price": 1799,
+        "memory": "N/A",
+  "storage": "N/A",
       "description": "LG OLED TV with Dolby Vision, perfect blacks, and stunning picture quality.",
       "category": "TV & Homes",
+          "size": "55-inch",
+
       "categoryImage": "https://media.istockphoto.com/id/1289373642/vector/illustration-of-a-black-tv-with-a-blank-screen-isolated-on-white-background-vector.jpg?s=612x612&w=0&k=20&c=jUb9q9Fxk1zVAh4rEggSo70yrE2UQWargoDPdPKk0cg=",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRLez7ue45xDLzEKZrHn1IHgzed8BkHGJaoQ&s"
     },
@@ -125,8 +165,11 @@
   "name": "Apple Watch Series 9",
   "rating": 4.8,
   "price": 399,
+    "memory": "4GB RAM",
+  "storage": "36GB",
   "description": "Advanced smartwatch with health tracking, Always-On display, and fast charging.",
   "category": "Smartwatch",
+  "size": "45mm",
   "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKT13?wid=2000&hei=2000",
   "categoryImage": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?semt=ais_hybrid&w=740&q=80"
 },
@@ -135,8 +178,12 @@
   "name": "Garmin Venu 3",
   "rating": 4.8,
   "price": 449,
+    "memory": "2GB RAM",
+  "storage": "12GB",
   "description": "Fitness-focused smartwatch with AMOLED display, GPS, and health monitoring.",
   "category": "Smartwatch",
+      "size": "45mm",
+
   "image": "https://m.media-amazon.com/images/I/71xn3VfVJLL._AC_SL1500_.jpg",
   "categoryImage": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?semt=ais_hybrid&w=740&q=80"
 },
@@ -146,8 +193,11 @@
   "name": "Xbox Series X",
   "rating": 4.9,
   "price": 499,
+    "memory": "16GB RAM",
+  "storage": "1TB SSD",
   "description": "Microsoft’s flagship 4K gaming console with fast load times and 120 FPS support.",
   "category": "Gaming Console",
+      "size": "301mm x 151mm x 151mm",
   "image": "https://images.unsplash.com/photo-1606813907291-d86efa7c71b5",
   "categoryImage": "https://wallpapers.com/images/featured/ps5-console-png-ywbv2gv3gfw23o3w.jpg"
 },
@@ -156,11 +206,240 @@
   "name": "PlayStation 5",
   "rating": 4.9,
   "price": 499,
+    "memory": "N/A",
+  "storage": "N/A",
   "description": "Sony PS5 gaming console with ultra-fast SSD, ray tracing, and haptic feedback controller.",
   "category": "Gaming Console",
+      "size": "390mm x 104mm x 260mm",
+
   "image": "https://images.unsplash.com/photo-1606813907291-d86efa7c71b5",
   "categoryImage": "https://wallpapers.com/images/featured/ps5-console-png-ywbv2gv3gfw23o3w.jpg"
 }
+,
+{
+  "id": 17,
+  "name": "HP Spectre x360 14",
+  "rating": 4.7,
+  "price": 1599,
+  "description": "Premium 2-in-1 laptop with OLED touchscreen, Intel Core i7 processor, and sleek design.",
+  "category": "Computer & Laptop",
+  "memory": "16GB RAM",
+  "storage": "1TB SSD",
+      "size": "14-inch OLED Display",
+  "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+  "categoryImage": "https://img.freepik.com/premium-photo/isolated-laptop-computer-with-white-screen-mockup-white-background-clipping-path_50039-2411.jpg"
+},
+{
+  "id": 18,
+  "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+  "rating": 4.8,
+  "price": 1799,
+  "description": "Ultra-light business laptop with military-grade durability and excellent keyboard.",
+  "category": "Computer & Laptop",
+  "memory": "16GB RAM",
+  "storage": "512GB SSD",
+      "size": "14-inch FHD Display",
+  "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+  "categoryImage": "https://img.freepik.com/premium-photo/isolated-laptop-computer-with-white-screen-mockup-white-background-clipping-path_50039-2411.jpg"
+}
+,
+{
+  "id": 19,
+  "name": "Google Pixel 8 Pro",
+  "rating": 4.7,
+  "price": 999,
+  "description": "Google Pixel flagship with AI-powered camera, Tensor G3 chip, and smooth Android experience.",
+  "category": "SmartPhone",
+  "memory": "12GB RAM",
+  "storage": "256GB",
+      "size": "6.7-inch LTPO OLED",
+  "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+  "categoryImage": "https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg"
+},
+{
+  "id": 20,
+  "name": "OnePlus 12",
+  "rating": 4.6,
+  "price": 899,
+  "description": "High-performance smartphone with Snapdragon processor and fast charging.",
+  "category": "SmartPhone",
+  "memory": "16GB RAM",
+  "storage": "512GB",
+      "size": "6.7-inch AMOLED",
+  "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+  "categoryImage": "https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg"
+}
+,
+{
+  "id": 21,
+  "name": "Bose QuietComfort Ultra",
+  "rating": 4.8,
+  "price": 429,
+  "description": "Premium noise-cancelling headphones with spatial audio and rich sound.",
+  "category": "Headphones",
+  "memory": "N/A",
+  "storage": "N/A",
+      "size": "Over-Ear",
+  "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+  "categoryImage": "https://www.freeiconspng.com/thumbs/headphones-png/headphones-png-14.png"
+}
+,
+{
+  "id": 22,
+  "name": "Nikon Z6 II",
+  "rating": 4.7,
+  "price": 1999,
+  "description": "Full-frame mirrorless camera with dual processors and excellent autofocus.",
+  "category": "Camera & Photo",
+  "memory": "Dual Card Slots",
+  "storage": "CFexpress + SD",
+      "size": "24.5MP Sensor",
+
+  "image": "https://images.unsplash.com/photo-1519183071298-a2962eadcdb2",
+  "categoryImage": "https://img.freepik.com/free-vector/vector-compact-photo-camera-top-view-isolated-white-background_1284-45522.jpg"
+}
+,
+{
+  "id": 23,
+  "name": "Nintendo Switch OLED",
+  "rating": 4.8,
+  "price": 349,
+  "description": "Portable gaming console with vibrant OLED display and versatile play modes.",
+  "category": "Gaming Console",
+  "memory": "4GB RAM",
+  "storage": "64GB Internal",
+      "size": "20.1mm x 102mm x 242mm",
+
+  "image": "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3",
+  "categoryImage": "https://wallpapers.com/images/featured/ps5-console-png-ywbv2gv3gfw23o3w.jpg"
+}
+,
+{
+  "id": 24,
+  "name": "Samsung Galaxy Watch 6 Classic",
+  "rating": 4.7,
+  "price": 429,
+  "description": "Premium smartwatch with rotating bezel, health tracking, and Wear OS.",
+  "category": "Smartwatch",
+  "memory": "2GB RAM",
+  "storage": "16GB",
+    "size": "45mm",
+  "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+  "categoryImage": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg"
+},
+{
+  "id": 25,
+  "name": "ASUS ROG Zephyrus G14",
+  "rating": 4.8,
+  "price": 1899,
+  "description": "High-performance gaming laptop featuring AMD Ryzen 9 processor, RTX graphics, and a compact premium design.",
+  "category": "Computer & Laptop",
+  "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+  "categoryImage": "https://img.freepik.com/premium-photo/isolated-laptop-computer-with-white-screen-mockup-white-background-clipping-path_50039-2411.jpg",
+
+  "memory": "32GB RAM",
+  "storage": "1TB SSD",
+  "size": "14-inch QHD Display"
+},
+{
+  "id": 26,
+  "name": "Acer Swift X",
+  "rating": 4.6,
+  "price": 1299,
+  "description": "Slim and powerful creator laptop with dedicated GPU, perfect for editing and multitasking.",
+  "category": "Computer & Laptop",
+  "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+  "categoryImage": "https://img.freepik.com/premium-photo/isolated-laptop-computer-with-white-screen-mockup-white-background-clipping-path_50039-2411.jpg",
+
+  "memory": "16GB RAM",
+  "storage": "512GB SSD",
+  "size": "14-inch Full HD Display"
+},
+{
+  "id": 27,
+  "name": "Xiaomi 14 Pro",
+  "rating": 4.6,
+  "price": 899,
+  "description": "Flagship smartphone with Leica camera system, ultra-fast charging, and premium AMOLED display.",
+  "category": "SmartPhone",
+  "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+  "categoryImage": "https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg",
+
+  "memory": "12GB RAM",
+  "storage": "512GB",
+  "size": "6.73-inch AMOLED"
+},
+{
+  "id": 28,
+  "name": "Nothing Phone (2)",
+  "rating": 4.5,
+  "price": 699,
+  "description": "Unique transparent design smartphone with Glyph interface and clean Android experience.",
+  "category": "SmartPhone",
+  "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+  "categoryImage": "https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg",
+
+  "memory": "12GB RAM",
+  "storage": "256GB",
+  "size": "6.7-inch OLED Display"
+},
+{
+  "id": 29,
+  "name": "Sony WF-1000XM5",
+  "rating": 4.8,
+  "price": 299,
+  "description": "True wireless earbuds with best-in-class noise cancellation and crystal-clear sound.",
+  "category": "Headphones",
+  "image": "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5",
+  "categoryImage": "https://www.freeiconspng.com/thumbs/headphones-png/headphones-png-14.png",
+
+  "memory": "N/A",
+  "storage": "N/A",
+  "size": "In-Ear"
+},
+{
+  "id": 30,
+  "name": "Amazfit GTR 4",
+  "rating": 4.6,
+  "price": 249,
+  "description": "Stylish smartwatch with long battery life, GPS tracking, and comprehensive health features.",
+  "category": "Smartwatch",
+  "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b",
+  "categoryImage": "https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg",
+
+  "memory": "2GB RAM",
+  "storage": "16GB",
+  "size": "46mm Case"
+},
+{
+  "id": 31,
+  "name": "Steam Deck OLED",
+  "rating": 4.8,
+  "price": 549,
+  "description": "Portable PC gaming console with OLED display and access to the full Steam library.",
+  "category": "Gaming Console",
+  "image": "https://images.unsplash.com/photo-1606813907291-d86efa7c71b5",
+  "categoryImage": "https://wallpapers.com/images/featured/ps5-console-png-ywbv2gv3gfw23o3w.jpg",
+
+  "memory": "16GB RAM",
+  "storage": "512GB SSD",
+  "size": "7.4-inch OLED Display"
+},
+{
+  "id": 32,
+  "name": "TCL Mini-LED 75-inch 4K",
+  "rating": 4.7,
+  "price": 1699,
+  "description": "Large-screen Mini-LED TV with Dolby Vision, high brightness, and immersive audio.",
+  "category": "TV & Homes",
+  "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3",
+  "categoryImage": "https://media.istockphoto.com/id/1289373642/vector/illustration-of-a-black-tv-with-a-blank-screen-isolated-on-white-background-vector.jpg",
+
+  "memory": "3GB RAM",
+  "storage": "32GB",
+  "size": "75-inch Screen"
+}
+
 
   ]
 }

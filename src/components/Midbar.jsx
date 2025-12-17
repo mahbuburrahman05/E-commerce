@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { FaSearch, FaShoppingCart, FaHeart, FaUser, FaEye } from "react-icons/fa";
+import { ElectronicsContext } from "../Root/ProductProvider";
+import MiniCart from "./MiniCart";
 
 export default function MiddleNavbar() {
     const [open, setOpen] = useState(false);
-
+    const [item, setItem] = useState(false);
+          const { cart, setCart } = useContext(ElectronicsContext);
+    
+let numberOfItems = cart.length;
   return (
     <div className="bg-[#1f628a] ">
 
@@ -29,13 +34,16 @@ export default function MiddleNavbar() {
       {/* Icons */}
       <div className="flex items-center gap-6 text-2xl">
         {/* Cart with badge */}
-        <div className="relative cursor-pointer">
-          <FaShoppingCart />
+    <div className="relative">
+      <FaShoppingCart
+        className="cursor-pointer"
+        onClick={() => setItem(!item)}
+      />
           <span className="absolute -top-2 -right-2 bg-white text-[#1f628a] text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
-            0
+            {numberOfItems}
           </span>
-        </div>
-
+      {item && <MiniCart />}
+    </div>
         <FaHeart className="cursor-pointer" />
     <div
       className="relative"

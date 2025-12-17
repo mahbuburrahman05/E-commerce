@@ -5,6 +5,10 @@ import { FaStar, FaHeart, FaShoppingCart, FaEye } from "react-icons/fa";
 const FeaturedSection = () => {
   const { electronics, loading } = useContext(ElectronicsContext);
   const [active, setActive] = useState("All Product");
+    const { cart, setCart } = useContext(ElectronicsContext);
+  const HandleaddToCart = (product) => {
+    setCart([...cart, product]);
+  };
 
   if (loading) return <p>Loading...</p>;
 
@@ -116,10 +120,12 @@ const FeaturedSection = () => {
                   <button className="p-[10px] bg-white shadow rounded-full hover:bg-orange-400 hover:text-white transition">
                     <FaHeart size={14} />
                   </button>
-
-                  <button className="p-[10px] bg-white shadow rounded-full hover:bg-orange-400 hover:text-white transition">
-                    <FaShoppingCart size={14} />
-                  </button>
+                    <button
+                      onClick={() => HandleaddToCart(item)}
+                      className="p-[10px] bg-white shadow rounded-full hover:bg-orange-400 hover:text-white transition"
+                    >
+                      <FaShoppingCart size={14} />
+                    </button>
 
                   <button className="p-[10px] bg-white shadow rounded-full hover:bg-orange-400 hover:text-white transition">
                     <FaEye size={14} />

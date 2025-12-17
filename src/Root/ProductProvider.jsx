@@ -4,7 +4,8 @@ export const ElectronicsContext = createContext();
 
 export const ElectronicsProvider = ({ children }) => {
   const [electronics, setElectronics] = useState([]);
-  const [categories, setCategories] = useState([]); // NEW
+  const [categories, setCategories] = useState([]);
+  const [cart, setCart] = useState([]); // ✅ ADD
   const [loading, setLoading] = useState(true);
 
   const fetchElectronics = async () => {
@@ -14,7 +15,6 @@ export const ElectronicsProvider = ({ children }) => {
 
       setElectronics(data.electronics);
 
-      // 🔥 Extract unique categories with categoryImage
       const uniqueCategories = Array.from(
         new Map(
           data.electronics.map((item) => [
@@ -28,7 +28,6 @@ export const ElectronicsProvider = ({ children }) => {
       }));
 
       setCategories(uniqueCategories);
-
       setLoading(false);
     } catch (error) {
       console.error("Failed to fetch electronics:", error);
@@ -39,10 +38,15 @@ export const ElectronicsProvider = ({ children }) => {
   useEffect(() => {
     fetchElectronics();
   }, []);
-
   return (
     <ElectronicsContext.Provider
-      value={{ electronics, categories, loading }}
+      value={{
+        electronics,
+        categories,
+        cart,
+        setCart,  
+        loading,
+      }}
     >
       {children}
     </ElectronicsContext.Provider>

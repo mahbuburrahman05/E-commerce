@@ -44,10 +44,6 @@ const Footer = () => {
             <li>Camera & Photo</li>
             <li>TV & Homes</li>
           </ul>
-
-          <button className="text-sm text-yellow-500 mt-4 flex items-center gap-1">
-            Browse All Product →
-          </button>
         </div>
 
         {/* 3️⃣ QUICK LINKS */}
