@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import { ElectronicsContext } from "../Root/ProductProvider";
+import { Link } from "react-router";
 
 const FlashSaleSection = () => {
   const { electronics, loading } = useContext(ElectronicsContext);
@@ -31,6 +32,7 @@ const FlashSaleSection = () => {
 
             <div className="flex flex-col gap-4">
               {sec.items.map((item) => (
+                <Link to={`/product/${item.id}`} key={item.id}>
                 <div
                   key={item.id}
                   className="border border-[#E4E7E9] rounded-lg p-4 flex items-center gap-4 hover:shadow-md transition cursor-pointer"
@@ -53,6 +55,7 @@ const FlashSaleSection = () => {
                     </p>
                   </div>
                 </div>
+                  </Link>
               ))}
             </div>
 

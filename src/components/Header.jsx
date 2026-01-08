@@ -10,6 +10,7 @@ import { FiInbox } from "react-icons/fi";
 import { CiTrophy } from "react-icons/ci";
 import { CiCreditCard1 } from "react-icons/ci";
 import { CiHeadphones } from "react-icons/ci";
+import { Link } from "react-router";
 
 
 
@@ -20,6 +21,8 @@ export default function Header() {
         dots: true,
         infinite: true,
         speed: 500,
+        autoplay: true,
+        autoplaySpeed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
     };
@@ -40,8 +43,8 @@ export default function Header() {
                             <div className="w-1/2 pl-[54px]">
                                 <h5 className="flex items-center text-[14px] text-[#2484C2] font-semibold"><div className="w-[25px] h-0.5  bg-[#2484C2]"></div>THE BEST PLACE TO PLAY</h5>
                                 <h2 className="text-[38px] font-semibold text-[#191C1F]">Xbox Consoles</h2>
-                                <p className="text-gray-700 text-[18px] mt-2">Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.</p>
-                                <button className="px-13 rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">Shop Now →</button>
+                                <p className="text-gray-700 text-[18px] mb-9 mt-2">Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.</p>
+                                <Link to="/shop" className="px-13 rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">Shop Now →</Link>
                             </div>
 
                             {/* Right Image */}
@@ -67,13 +70,13 @@ export default function Header() {
     </h5>
 
     <h2 className="text-[38px] font-semibold text-[#191C1F]">Xbox Consoles</h2>
-    <p className="text-gray-700 text-[18px] mt-2">
+    <p className="text-gray-700 text-[18px] mb-9 mt-2">
       Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.
     </p>
 
-    <button className="px-13 rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">
+    <Link to="/shop" className="px-13 cursor-pointer rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">
       Shop Now →
-    </button>
+    </Link>
   </div>
 
   {/* Right Image */}
@@ -100,8 +103,8 @@ export default function Header() {
                             <div className="w-1/2 pl-[54px]">
                                 <h5 className="flex ml-[3px] items-center text-[14px] text-[#2484C2] font-semibold"><div className="w-[25px] h-0.5  bg-[#2484C2]"></div>THE BEST PLACE TO PLAY</h5>
                                 <h2 className="text-[38px] font-semibold text-[#191C1F]">Xbox Consoles</h2>
-                                <p className="text-gray-700 text-[18px] mt-2">Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.</p>
-                                <button className="px-13 rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">Shop Now →</button>
+                                <p className="text-gray-700 text-[18px] mb-9 mt-2">Save up to 50% on select Xbox games. Get 3 months of PC Game Pass for $2 USD.</p>
+                                <Link to="/shop" className="px-13 cursor-pointer rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">Shop Now →</Link>
                             </div>
 
                             {/* Right Image */}
@@ -117,10 +120,10 @@ export default function Header() {
             <div className="w-[36%]  relative rounded-[5px]">
             <div className="flex flex-col ">
                             <div className="flex bg-[#191C1F] rounded-[5px] mb-6">
-                    <div className="w-1/2 pt-[45px] pl-[35px] pb-[45px] text-white">
+                    <div className="w-1/2 pt-[45px] pl-[35px] pb-[93px] text-white">
                         <h6 className="text-[#EBC80C] ">Summer Sales</h6>
-                        <h1 className="text-[24px] font-semibold">New Google Pixel 6 Pro</h1>
-                        <button className="px-6 rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">Shop Now →</button>
+                        <h1 className="text-[24px] mb-6 font-semibold">New Google Pixel 6 Pro</h1>
+                        <Link to="/shop" className="px-6 rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">Shop Now →</Link>
                     </div>
                     <div className="w-1/2">
                         <img className="absolute top-[57px] right-0" src={pixelphone} alt="" />
@@ -132,8 +135,8 @@ export default function Header() {
                     </div>
                     <div className="w-1/2 pt-[45px] pl-[35px] pb-[45px] ">
                         <h1 className="text-[24px] font-semibold">Xiaomi FlipBuds Pro</h1>
-                        <h6 className="text-[#2484C2] text-[18px]">$299 USD</h6>
-                        <button className="px-6 rounded-[5px] mt-6 text-white py-3 bg-[#FA8232]">Shop Now →</button>
+                        <h6 className="text-[#2484C2] mb-6 text-[18px]">$299 USD</h6>
+                        <Link to="/shop" className="px-6 cursor-pointer  rounded-[5px] mt-9 text-white py-3 bg-[#FA8232]">Shop Now →</Link>
                     </div>
                 </div>
             </div>
