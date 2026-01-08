@@ -1,5 +1,4 @@
 import React from "react";
-import icon from "../assets/icon.png";
 import { FaGooglePlay } from "react-icons/fa";
 import { FaApple } from "react-icons/fa";
 
@@ -14,7 +13,6 @@ const Footer = () => {
         {/* 1️⃣ LEFT: LOGO + CONTACT */}
         <div className="w-[22%]">
           <div className="flex items-center gap-3 mb-6">
-            <img src={icon} alt="logo" className="w-8 h-8 object-cover" />
             <h2 className="text-white text-2xl font-semibold">CLICON</h2>
           </div>
 
