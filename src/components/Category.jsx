@@ -3,26 +3,27 @@ import { useContext } from "react";
 import { ElectronicsContext } from "../Root/ProductProvider";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-// Custom Next Arrow
-function NextArrow(props) {
-  const { onClick } = props;
+/* ---------- Custom Arrows ---------- */
+function NextArrow({ onClick }) {
   return (
     <div
-      className="absolute right-[-18px] text-white top-1/2 -translate-y-1/2 z-10 bg-[#FA8232] p-3 rounded-full shadow cursor-pointer"
       onClick={onClick}
+      className="hidden md:flex absolute -right-5 top-1/2 -translate-y-1/2
+                 bg-[#FA8232] text-white p-3 rounded-full shadow
+                 cursor-pointer z-10"
     >
       <FaArrowRight />
     </div>
   );
 }
 
-// Custom Prev Arrow
-function PrevArrow(props) {
-  const { onClick } = props;
+function PrevArrow({ onClick }) {
   return (
     <div
-      className="absolute left-[-18px] top-1/2 text-white -translate-y-1/2 z-10 bg-[#FA8232] p-3 rounded-full shadow cursor-pointer"
       onClick={onClick}
+      className="hidden md:flex absolute -left-5 top-1/2 -translate-y-1/2
+                 bg-[#FA8232] text-white p-3 rounded-full shadow
+                 cursor-pointer z-10"
     >
       <FaArrowLeft />
     </div>
@@ -32,45 +33,61 @@ function PrevArrow(props) {
 const Category = () => {
   const { categories, loading } = useContext(ElectronicsContext);
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <p className="text-center py-10">Loading...</p>;
 
   const settings = {
     dots: false,
     infinite: true,
-    speed: 600,
-    slidesToShow: 6, // number of categories you want to show
+    speed: 500,
+    slidesToShow: 6,
     slidesToScroll: 1,
+    arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     responsive: [
       {
+        breakpoint: 1280,
+        settings: { slidesToShow: 5 },
+      },
+      {
         breakpoint: 1024,
-        settings: { slidesToShow: 3 }
+        settings: { slidesToShow: 4 },
       },
       {
         breakpoint: 768,
-        settings: { slidesToShow: 2 }
+        settings: { slidesToShow: 2, arrows: false },
       },
       {
         breakpoint: 480,
-        settings: { slidesToShow: 1 }
-      }
-    ]
+        settings: { slidesToShow: 1, arrows: false },
+      },
+    ],
   };
 
   return (
-    <div className="relative max-w-[1220px] mx-auto px-10 ">
-      <h1 className="text-center text-[32px] font-semibold mb-8">Shop with Categorys</h1>
+    <div className="relative max-w-[1220px] mx-auto px-4 sm:px-6 lg:px-10">
+      <h1 className="text-center text-xl sm:text-2xl lg:text-[32px]
+                     font-semibold mb-6 sm:mb-8">
+        Shop with Categories
+      </h1>
+
       <Slider {...settings}>
         {categories.map((cat) => (
-          <div key={cat.category} className="p-1">
-            <div className="border border-gray-300 rounded-xl h-40 overflow-hidden bg-white">
+          <div key={cat.category} className="px-2">
+            <div
+              className="border border-gray-300 rounded-xl bg-white
+                         h-36 sm:h-40
+                         flex flex-col items-center justify-between"
+            >
               <img
                 src={cat.categoryImage}
                 alt={cat.category}
-                className="w-[40%] h-[40%] rounded-2xl mx-auto mt-4 object-contain"
+                className="w-20 h-20 sm:w-24 sm:h-24 mt-4
+                           object-contain"
               />
-              <h3 className="text-center py-3 font-semibold text-lg">
+
+              <h3 className="text-center pb-3 font-semibold
+                             text-sm sm:text-base">
                 {cat.category}
               </h3>
             </div>

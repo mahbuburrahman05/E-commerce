@@ -1,17 +1,15 @@
 import React from "react";
-import { FaGooglePlay } from "react-icons/fa";
-import { FaApple } from "react-icons/fa";
-
+import { FaGooglePlay, FaApple } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-gray-300 py-16 px-10">
+    <footer className="bg-black text-gray-300 py-16 px-4 sm:px-6 lg:px-10">
 
-      {/* 🔥 MAIN FLEX — ALL SECTIONS IN ONE ROW */}
-      <div className="max-w-7xl mx-auto flex justify-between items-start gap-12">
+      {/* MAIN FLEX — ALL SECTIONS */}
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row flex-wrap justify-between items-start gap-10">
 
         {/* 1️⃣ LEFT: LOGO + CONTACT */}
-        <div className="w-[22%]">
+        <div className="flex-1 min-w-[220px] lg:w-[22%]">
           <div className="flex items-center gap-3 mb-6">
             <h2 className="text-white text-2xl font-semibold">CLICON</h2>
           </div>
@@ -28,9 +26,8 @@ const Footer = () => {
         </div>
 
         {/* 2️⃣ TOP CATEGORY */}
-        <div className="w-[15%]">
+        <div className="flex-1 min-w-[150px] lg:w-[15%]">
           <h3 className="text-white font-semibold mb-4 text-[16px]">TOP CATEGORY</h3>
-
           <ul className="space-y-2 text-sm">
             <li>Computer & Laptop</li>
             <li>SmartPhone</li>
@@ -45,9 +42,8 @@ const Footer = () => {
         </div>
 
         {/* 3️⃣ QUICK LINKS */}
-        <div className="w-[15%]">
+        <div className="flex-1 min-w-[150px] lg:w-[15%]">
           <h3 className="text-white font-semibold mb-4 text-[16px]">QUICK LINKS</h3>
-
           <ul className="space-y-2 text-sm">
             <li>Shop Product</li>
             <li>Shopping Cart</li>
@@ -60,49 +56,37 @@ const Footer = () => {
         </div>
 
         {/* 4️⃣ DOWNLOAD APP */}
-        <div className="w-[18%]">
+        <div className="flex-1 min-w-[180px] lg:w-[18%]">
           <h3 className="text-white font-semibold mb-4 text-[16px]">DOWNLOAD APP</h3>
-
           <div className="space-y-4">
-            <div className="flex items-center gap-4 bg-[#161718] border border-[#222] p-4 rounded-lg w-[180px]">
-              <div className="w-10 h-10  rounded">< FaGooglePlay className="text-3xl ml-1 mt-1"/>
-</div>
+
+            <div className="flex items-center gap-4 bg-[#161718] border border-[#222] p-3 rounded-lg w-full sm:w-[180px]">
+              <FaGooglePlay className="text-3xl ml-1 mt-1"/>
               <div>
                 <p className="text-xs">Get it now</p>
                 <p className="font-semibold text-white text-sm">Google Play</p>
               </div>
             </div>
 
-            <div className="flex items-center gap-4 bg-[#161718] border border-[#222] p-4 rounded-lg w-[180px]">
-              <div className="w-10 h-10 rounded"><FaApple  className="text-3xl ml-1 mt-1" />
-</div>
+            <div className="flex items-center gap-4 bg-[#161718] border border-[#222] p-3 rounded-lg w-full sm:w-[180px]">
+              <FaApple className="text-3xl ml-1 mt-1" />
               <div>
                 <p className="text-xs">Get it now</p>
                 <p className="font-semibold text-white text-sm">App Store</p>
               </div>
             </div>
+
           </div>
         </div>
 
-        {/* 5️⃣ POPULAR TAG (IN SAME ROW — EXACT) */}
-        <div className="w-[25%]">
+        {/* 5️⃣ POPULAR TAG */}
+        <div className="flex-1 min-w-[200px] lg:w-[25%]">
           <h3 className="text-white font-semibold mb-4 text-[16px]">POPULAR TAG</h3>
-
-          <div className="flex flex-wrap gap-3 max-w-[300px]">
+          <div className="flex flex-wrap gap-2 sm:gap-3 max-w-full">
             {[
-              "Game",
-              "iPhone",
-              "TV",
-              "Asus Laptops",
-              "Macbook",
-              "SSD",
-              "Graphics Card",
-              "Power Bank",
-              "Smart TV",
-              "Speaker",
-              "Tablet",
-              "Microwave",
-              "Samsung"
+              "Game","iPhone","TV","Asus Laptops","Macbook","SSD",
+              "Graphics Card","Power Bank","Smart TV","Speaker",
+              "Tablet","Microwave","Samsung"
             ].map((item) => (
               <span
                 key={item}
@@ -113,6 +97,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
+
       </div>
 
       {/* COPYRIGHT */}

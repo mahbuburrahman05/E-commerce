@@ -12,7 +12,7 @@ const PriceRange = ({ minPrice, maxPrice, setMinPrice, setMaxPrice }) => {
   ];
 
   return (
-    <div className="text-black">
+    <div className="text-black w-full">
       {/* TITLE */}
       <h3 className="text-sm font-semibold mb-4 uppercase">Price Range</h3>
 
@@ -24,7 +24,7 @@ const PriceRange = ({ minPrice, maxPrice, setMinPrice, setMaxPrice }) => {
           max="10000"
           value={minPrice}
           onChange={(e) => setMinPrice(Number(e.target.value))}
-          className="absolute w-full accent-orange-500"
+          className="w-full accent-orange-500"
         />
         <input
           type="range"
@@ -32,33 +32,32 @@ const PriceRange = ({ minPrice, maxPrice, setMinPrice, setMaxPrice }) => {
           max="10000"
           value={maxPrice}
           onChange={(e) => setMaxPrice(Number(e.target.value))}
-          className="w-full accent-orange-500"
+          className="w-full accent-orange-500 mt-2"
         />
       </div>
 
       {/* MIN / MAX INPUT */}
-      <div className="flex gap-3 mb-5">
+      <div className="flex flex-col sm:flex-row gap-3 mb-5">
         <input
           type="number"
           placeholder="Min price"
           value={minPrice}
           onChange={(e) => setMinPrice(Number(e.target.value))}
-          className="w-1/2 px-3 py-2 rounded text-sm text-black"
+          className="w-full sm:w-1/2 px-3 py-2 rounded text-sm text-black"
         />
         <input
           type="number"
           placeholder="Max price"
           value={maxPrice}
           onChange={(e) => setMaxPrice(Number(e.target.value))}
-          className="w-1/2 px-3 py-2 rounded text-sm text-black"
+          className="w-full sm:w-1/2 px-3 py-2 rounded text-sm text-black"
         />
       </div>
 
       {/* RADIO PRICE LIST */}
-      <div className="space-y-3">
+      <div className="flex flex-col gap-3">
         {ranges.map((r, i) => {
           const active = minPrice === r.min && maxPrice === r.max;
-
           return (
             <div
               key={i}
@@ -71,22 +70,14 @@ const PriceRange = ({ minPrice, maxPrice, setMinPrice, setMaxPrice }) => {
               {/* CUSTOM RADIO */}
               <span
                 className={`w-4 h-4 rounded-full border-2 flex items-center justify-center
-                  ${
-                    active
-                      ? "border-orange-500"
-                      : "border-gray-400"
-                  }`}
+                  ${active ? "border-orange-500" : "border-gray-400"}`}
               >
                 {active && (
                   <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
                 )}
               </span>
 
-              <span
-                className={`text-sm ${
-                  active ? "text-black" : "text-[#475156]"
-                }`}
-              >
+              <span className={`text-sm ${active ? "text-black" : "text-gray-600"}`}>
                 {r.label}
               </span>
             </div>
