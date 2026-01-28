@@ -33,7 +33,9 @@ function PrevArrow({ onClick }) {
 const Category = () => {
   const { categories, loading } = useContext(ElectronicsContext);
 
-  if (loading) return <p className="text-center py-10">Loading...</p>;
+  if (loading) {
+    return <p className="text-center py-10">Loading...</p>;
+  }
 
   const settings = {
     dots: false,
@@ -44,30 +46,44 @@ const Category = () => {
     arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+
+    /* 🔑 MOBILE BREAKPOINTS (max-width based) */
     responsive: [
       {
-        breakpoint: 1280,
-        settings: { slidesToShow: 5 },
-      },
-      {
-        breakpoint: 1024,
-        settings: { slidesToShow: 4 },
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
       },
       {
         breakpoint: 768,
-        settings: { slidesToShow: 2, arrows: false },
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
       },
       {
-        breakpoint: 480,
-        settings: { slidesToShow: 1, arrows: false },
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 5,
+        },
       },
     ],
   };
 
   return (
     <div className="relative max-w-[1220px] mx-auto px-4 sm:px-6 lg:px-10">
-      <h1 className="text-center text-xl sm:text-2xl lg:text-[32px]
-                     font-semibold mb-6 sm:mb-8">
+      <h1
+        className="text-center text-xl sm:text-2xl lg:text-[32px]
+                   font-semibold mb-6 sm:mb-8"
+      >
         Shop with Categories
       </h1>
 
@@ -77,17 +93,19 @@ const Category = () => {
             <div
               className="border border-gray-300 rounded-xl bg-white
                          h-36 sm:h-40
-                         flex flex-col items-center justify-between"
+                         flex flex-col items-center justify-between
+                         hover:shadow-md transition"
             >
               <img
                 src={cat.categoryImage}
                 alt={cat.category}
-                className="w-20 h-20 sm:w-24 sm:h-24 mt-4
-                           object-contain"
+                className="w-20 h-20 sm:w-24 sm:h-24 mt-4 object-contain"
               />
 
-              <h3 className="text-center pb-3 font-semibold
-                             text-sm sm:text-base">
+              <h3
+                className="text-center pb-3 font-semibold
+                           text-sm sm:text-base"
+              >
                 {cat.category}
               </h3>
             </div>
